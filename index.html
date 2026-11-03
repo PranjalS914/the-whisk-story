@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Whisk Story | Homemade with Love</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <div class="logo">The Whisk Story.</div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#cakes">Our Cakes</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <h1>Sweet Moments, Beautiful Memories.</h1>
+
+            <p>
+                Freshly baked with love, crafted with care.
+                Discover delicious homemade cakes made
+                specially for your celebrations.
+            </p>
+
+            <button onclick="orderNow()">Order Your Cake</button>
+        </div>
+
+        <img
+            src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=900"
+            alt="Beautiful chocolate celebration cake"
+            class="hero-image"
+        >
+
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2 class="section-title">A Little About Us</h2>
+
+        <div class="about">
+            <p>
+                At The Whisk Story, we believe every celebration
+                deserves something sweet. From birthdays to
+                special occasions, our homemade cakes are
+                prepared with fresh ingredients, creativity
+                and lots of love.
+            </p>
+        </div>
+    </section>
+
+    
+    <section class="products" id="cakes">
+    <h2>Our Bestselling Cakes</h2>
+    <p class="section-subtitle">Freshly baked with love, just for you.</p>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600" alt="Chocolate cake">
+            <h3>Chocolate Truffle</h3>
+            <p>Rich chocolate layers with smooth ganache.</p>
+            <h4>₹699</h4>
+            <button onclick="orderNow('Chocolate Truffle')">Order Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600" alt="Strawberry dessert">
+            <h3>Strawberry Delight</h3>
+            <p>Light, creamy and filled with strawberry flavour.</p>
+            <h4>₹799</h4>
+            <button onclick="orderNow('Strawberry Delight')">Order Now</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600" alt="Celebration cake">
+            <h3>Classic Celebration</h3>
+            <p>A beautiful cake for your special moments.</p>
+            <h4>₹899</h4>
+            <button onclick="orderNow('Classic Celebration')">Order Now</button>
+        </div>
+
+         </div>
+    </section>
+
+   
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2 class="section-title">Let's Make It Special</h2>
+        <div class="about">
+            <p>Have a celebration coming up? Let's create something sweet!</p>
+            <br>
+            <button onclick="orderNow()">Enquire Now</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    
+    <section class="reviews" id="reviews">
+    <h2>Sweet Words from Our Customers</h2>
+    <p class="section-subtitle">A little love from people who love our cakes.</p>
+
+        <div class="review-grid">
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"The chocolate cake was absolutely delicious. Everyone loved it!"</p>
+            <h4>— A Happy Customer</h4>
+        </div>
+
+        <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"Beautiful design, amazing taste and delivered with so much care."</p>
+            <h4>— A Cake Lover</h4>
+        </div>
+
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"The perfect cake for our special celebration. Highly recommended!"</p>
+            <h4>— A Happy Client</h4>
+          </div>
+
+        </div>
+    </section>
+
+    
+    <section class="gallery" id="gallery">
+        <h2>Made with Love</h2>
+        <p class="section-subtitle">A glimpse of our sweetest creations.</p>
+
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600" alt="Chocolate cake">
+          <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=600" alt="Sweet dessert">
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600" alt="Celebration cake">
+          <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600" alt="Strawberry cake">
+        </div>
+    </section>
+
+    
+<footer class="footer">
+    <div class="footer-content">
+
+        <div class="footer-brand">
+            <h2>The Whisk Story</h2>
+            <p>Homemade with love, baked for happiness.</p>
+        </div>
+
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#cakes">Our Cakes</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#reviews">Reviews</a>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Get in Touch</h3>
+            <p>Email: hello@thewhiskstory.example</p>
+            <p>Orders: WhatsApp (demo only)</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 The Whisk Story. Portfolio demo website.</p>
+        <p>Made with ♥ and a little sweetness.</p>
+    </div>
+</footer>
+
+
+</body>
+</html>
